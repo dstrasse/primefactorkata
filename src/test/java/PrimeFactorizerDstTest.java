@@ -43,6 +43,9 @@ public class PrimeFactorizerDstTest {
             {8L, new Long[]{2L, 2L, 2L}},
             {11L, new Long[]{11L}},
             {1983L, new Long[]{3L, 661L}},
+            {5587793257325L, new Long[] {5L,5L,457L,1031L,474379L}},
+            //10 millionth prime, which is worst case for the algorithm
+            {179424673L, new Long[] {179424673L}}
     });
   }
 }
